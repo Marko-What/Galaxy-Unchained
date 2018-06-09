@@ -1,0 +1,227 @@
+
+div#box_wrapper {
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color:blue;
+	opacity: 0.4;
+}
+
+
+body {
+	background: url("galaxy.jpg") no-repeat fixed center; 
+	width:100%;
+	height:100%;
+}	
+
+div#wrap_box{
+	/*border:1px solid blue;*/
+	margin:100 auto;
+	width:350px;
+	height: 350px;
+	/*background-color:blue;*/
+	position: absolute;
+	display: none;
+	
+}
+
+
+div#circle{
+	width:100px;
+	height:100px;
+	border:4px solid white;
+	margin:100 auto;
+	border-radius: 100px;
+	z-index: 9;
+	position: relative;
+}
+
+div#circleOuter	{
+	width:100px;
+	height:100px;
+	border:2px solid white;
+	margin:0 auto;
+	top: -207px;
+	position: relative;
+	border-radius: 210px!important;
+}
+div#icon {
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+	display:block;
+	width:50px;
+	height:50px;
+	margin: 25px;
+    	padding: 13px;
+    	box-sizing: border-box;
+	padding: 10px 0px;
+	font-family: arial;
+
+}
+
+div#slide {
+	/*background-color:white;*/
+	margin: 8px;
+	display: none;
+	width: 0;
+	height: 0;
+	border-width: 3px 4.5px 6px 5.5px;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+	margin: 8px;
+	display:none;	
+}
+
+div#horizont {
+	margin:10px;
+}
+
+.top {
+	top: 54px;
+	position:absolute;
+}
+
+
+
+.right {
+	transform: rotate(45deg);
+	right: 96;
+}
+
+.left{
+	left: 98px;
+	transform: rotate(-45deg);
+}
+
+.bottom{
+	position: absolute;
+	top: 180px;
+	transform: rotate (56deg)!important;
+}
+
+.bottomLeft{
+	right: 96px;
+	transform: rotate(135deg);
+}
+
+.bottomRight{
+	transform: rotate(220deg);
+	left: 100;
+}
+
+.white {
+	background-color: white!important;
+}
+
+.normal{
+	border-color: transparent transparent gray transparent!important;
+}
+
+
+
+
+div#chain {
+	width: 40px;
+	height: 30px;
+	background-color:white;
+	position:absolute;
+	top: 145px;
+	left: 155px;
+	border-radius:3px;
+}
+
+div#chainUp{
+	width: 22px;
+	height: 35px;
+	border: 5px solid white;
+	border-radius: 22px;
+	margin-top: -24px;
+	margin-left: 4px;
+}
+
+
+div#chainDown{
+	width: 15px;
+	height: 15px;
+	background-color:gray; /* later on */
+	margin-left: 12px;
+	position: relative;
+	top: -23px;
+	border-radius: 48px;
+}
+
+div#chaincircle{
+	width: 30px;
+	height: 30px;
+	background-color:none;
+	border-radius:50px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+.borderWhiteAlpha {
+	border:2px solid rgba(255,255,255, 0.7)!important;
+	border-radius: 210px!important;
+	
+}
+
+
+.1rotateNone{
+	 transform: rotateY(0deg)!important;
+}
+
+
+
+#dragClick {
+	font-weight: 700;
+	font-size: 35px;
+	margin: 0 auto;
+	width: 395px;
+	margin-top: 150px;
+	color: white;
+	font-family: helvetica;
+	
+}
+
+
+
+div#circleA {
+	
+	width: 6px;
+	height: 6px;
+	border-radius:100%;
+	background-color:white;
+	margin:3px;
+	/*float:right;*/
+	margin-top: 9px;
+	
+}
+div#circlesA {
+	width:25px;
+	height: 18px;
+	/*border:1px solid blue;*/
+	float:right;
+	transform: rotate(90deg);
+	margin-right: 161px;
+	margin-top: 29px;;
+
+}
+
+.white {
+	background-color:white!important;
+}
+
+
+.a {
+	margin-left:10px;
+}
+
+.b {
+	margin-left:10px;
+}
+
+.c {
+	margin-left:10px;
+}
